@@ -20,7 +20,7 @@ function Coin({ TotalSupply, CirculatingSupply, Staking, BlockHeight, Burn }) {
           <h3>Pool Staking -------------------------------- {(Staking/1000000).toLocaleString()} LUNC</h3> 
         </div> 
         <div className="Block"> 
-        <h3>Block Height ----------------------------------- {BlockHeight}</h3> 
+        <h3>Block Height ----------------------------------- {parseInt(BlockHeight).toLocaleString()}</h3> 
         </div> 
    
      
